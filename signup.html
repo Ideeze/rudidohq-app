@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RudidoHQ-app signup</title>
+
+  <link rel="icon" href="assets/images/rq-fav.svg">
+
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/login.css">
+
+<style type="text/css">
+   .fb-button{
+    width: 120%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #A8117e;
+  
+   }
+.fb-button:hover{
+  opacity: 1;
+}
+   
+.gg-button{
+    width: 120%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color:#ffffff ;
+  color: #A8117e;
+  
+   }
+.gg-button:hover{
+  opacity: 1;
+}
+
+input[type=text], input[type=password] {
+  width: 120%;
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #740d55;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 4px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 120%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+#back-g{
+  background-color: #021325;
+  background-image:url(../login-10/assets/images/background-signup.png);
+}
+
+</style>
+
+</head>
+<body>
+  <div id="back-g">
+  <main class="d-flex min-vh-100 align-items-center p-4 p-md-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 intro-section">
+          <div class="intro-content-wrapper">
+            <div class="brand-wrapper">
+              <img style="height: 150px; width: 150px;" src="assets/images/circle-logo.svg" alt="logo" class="logo">
+            </div>
+            <h1 class="intro-title">An Innovation Community for Everyone!</h1>
+            <h2 class="intro-text">RudidoHQ is not just for innovators with ideas</h2>
+            <p class="intro-text">If you are in the business of promoting entrepreneurship; as a mentor, incubator, or business-school, RudidoHQ helps you remotely onboard, manage & invest in ideas from accross the globe.</p>
+            <p class="intro-text">Find and meet the right network of people to mentor, partner with, and invest in.</p>
+          </div>
+        </div>
+        <div class="col-md-6 form-secion">
+          <div class="login-wrapper">
+            
+            
+            <form action="action_page.php">
+
+              
+                
+               
+
+              <div class="col">
+                <div class="hide-md-lg">
+                  
+                </div>
+                <form action="/action_page.php" style="border:1px solid #ccc">
+                  <div class="container">
+                    
+                    <h1>Sign Up</h1>
+                    
+
+                    <button class="fb-button">Signup with Facebook</button>
+                    <button class="gg-button">Signup with Google</button> 
+                    <p>Or sign in manually:</p>
+
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                    
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+                    
+                    <p>By creating an account you agree to our <a href="https://www.rudidohq.com" style="color:#A8117e">Terms & Privacy</a>.</p>
+                
+                    <div class="clearfix">
+                      
+                      <button type="submit" onclick="myFunction()" class="signupbtn">Sign Up</button>
+                      <script>
+                        function myFunction(){
+                          window.location.href="onboarding.html";
+                        }
+                      </script>
+                    </div>
+
+                  
+                  </div>
+                </form>
+              
+              
+              
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </div>
+</body>
+</html>
